@@ -63,7 +63,8 @@ header{
     width: 100%;
     color: #EEE;
     padding: 1em;
-    background-image: url(https://unsplash.it/850/350?image=889);
+    /*background-image: url(https://unsplash.it/850/350?image=889);*/
+    background-image: url(http://loremflickr.com/g/850/350/cupcake,pie/all);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,7 +156,7 @@ footer a:hover{
 
 @media screen and (min-width:600px){
     h1{
-        font-size: 3.5em;
+        font-size: 2.989em;
     }
     h2{
         font-size: 1.5rem;
@@ -247,13 +248,12 @@ footer a:hover{
         color: #556;
         background-color: #eee;
         transition: all 0.5s;
-        text-align: left;
     }
     nav a:active,
     nav a:focus,
     nav a:hover{
         color: #6e6e85;
-        font-size: 1.6rem;
+        border-bottom: 2px solid #6e6e85;
     }
     main {
         padding-top: 3em; 
@@ -310,6 +310,8 @@ footer a:hover{
     nav a:visited{
         padding: 0 0 0.5em 30%;
         font-size: 1.7em;
+        text-align: left;
+        border: none;
     }
     nav a:active,
     nav a:focus,
@@ -318,6 +320,7 @@ footer a:hover{
     }
     .img{
         width: 55%;
+        font-size: 0.95em;
     }
     .first {
         padding-right: 2.25em;

@@ -102,11 +102,11 @@ main{
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
+    padding: 2em 1em 0.5em 1em;
 }
 .col{
     float: none;
     width: 100%;
-    padding: 2em 1em 0.5em 1em;
     text-align: justify;
 }
 .col img{
@@ -168,7 +168,7 @@ footer a:hover{
         width: 90%; /*100%*/
     }
     header{
-        padding: 1em 5%;
+        padding: 2.89em 5%;
     }
     nav{
         /*width:  90%;*/
@@ -185,10 +185,10 @@ footer a:hover{
     main{
         width: 90%;
         margin-top: 2.5em;
+        padding: 2em 0 0.5em 0;
     }
     .col {
         width: 50%;
-        padding: 2em 0 0.5em 0;
     }
     p {
         padding: 0.9em 0 0 0;
@@ -238,7 +238,7 @@ footer a:hover{
     }
     nav{
         width:  90%;
-        margin: auto;
+        margin: 0.5em auto 0 auto;
     }
     nav a,
     nav a:link,
@@ -255,7 +255,7 @@ footer a:hover{
         color: #6e6e85;
         font-size: 1.6rem;
     }
-    .col {
+    main {
         padding-top: 3em; 
         padding-bottom: 1em;
     }
@@ -280,5 +280,61 @@ footer a:hover{
     }
 }
 @media screen and (min-width: 1200px){
-   
+    h1 {
+        font-size: 5.57em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    p{
+        font-size: 1.15em;
+    }
+    header {
+        padding: 4em 8%;
+    }
+    main{
+        width: 70%;
+        padding: 0 8% 0 0;
+        margin-top: 7.5em;
+    }
+    nav{
+        width:  30%;
+        float: left;
+        margin-top: 7.5em;
+    }
+    nav li {
+        width: 100%;
+    }
+    nav a,
+    nav a:link,
+    nav a:visited{
+        padding: 0 0 0.5em 30%;
+        font-size: 1.7em;
+    }
+    nav a:active,
+    nav a:focus,
+    nav a:hover{
+        padding-left: 33%;
+    }
+    .img{
+        width: 55%;
+    }
+    .first {
+        padding-right: 2.25em;
+    }
+    .second {
+        padding-left: 2.25em;
+    }
+    footer {
+        height: 13em;
+        padding-left: 8%;
+        margin-top: 7em;
+    }
+    footer p, 
+    footer a, 
+    footer a:link, 
+    footer a:visited {
+        font-size: 1em;
+        padding-bottom: 2.9em;
+    }
 }

@@ -155,7 +155,7 @@ footer a:hover{
 
 @media screen and (min-width:600px){
     h1{
-        font-size: 4em;
+        font-size: 3.5em;
     }
     h2{
         font-size: 1.5rem;
@@ -167,6 +167,9 @@ footer a:hover{
     .wrapper{
         width: 90%; /*100%*/
     }
+    header{
+        padding: 1em 5%;
+    }
     nav{
         /*width:  90%;*/
     }
@@ -175,7 +178,8 @@ footer a:hover{
         float: left;
     }
     nav a,
-    nav a:link{
+    nav a:link,
+    nav a:visited{
         font-size: 1.3rem;
     }
     main{
@@ -184,27 +188,33 @@ footer a:hover{
     }
     .col {
         width: 50%;
+        padding: 2em 0 0.5em 0;
+    }
+    p {
+        padding: 0.9em 0 0 0;
     }
     .img{
         width: 60%;
-        font-size: 0.7em;
+        font-size: 0.8em;
         float: left;
-        margin-right: 10px;
+        margin: 1.6em 1em 0 0;
     }
     .first{
         float:left;
+        padding-right: 1em;
     }
     .second{
         float:right;
+        padding-left: 1em;
     }
     footer{
         /*width: 90%;*/
         clear: both;
-        padding-left: 7%;
-        height: 6em;
+        padding: 1em 5%;
+        height: 7em;
     }
     footer li{
-        width: 27%;
+        width: 30%;
         float: left;
     }
     footer p,
@@ -216,7 +226,58 @@ footer a:hover{
     }
 }
 @media screen and (min-width: 800px){
-    
+    h1 {
+        font-size: 3.97em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .img{
+        width: 50%;
+        margin: 2.3em 1.5em 1em 0;
+    }
+    nav{
+        width:  90%;
+        margin: auto;
+    }
+    nav a,
+    nav a:link,
+    nav a:visited{
+        font-size: 1.5rem;
+        color: #556;
+        background-color: #eee;
+        transition: all 0.5s;
+        text-align: left;
+    }
+    nav a:active,
+    nav a:focus,
+    nav a:hover{
+        color: #6e6e85;
+        font-size: 1.6rem;
+    }
+    .col {
+        padding-top: 3em; 
+        padding-bottom: 1em;
+    }
+    .first{
+        padding-right: 1.5em;
+    }
+    .second{
+        padding-left: 1.5em;
+    }
+    p {
+        padding: 1.5em 0 0 0;
+    }
+    footer{
+        height: 10em;
+    }
+    footer p, 
+    footer a, 
+    footer a:link, 
+    footer a:visited {
+        font-size: 0.9em;
+        padding-bottom: 2em;
+    }
 }
 @media screen and (min-width: 1200px){
    

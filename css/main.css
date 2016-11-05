@@ -63,7 +63,6 @@ header{
     width: 100%;
     color: #EEE;
     padding: 1em;
-    text-align: center;
     background-image: url(https://unsplash.it/850/350?image=889);
     background-position: center center;
     background-repeat: no-repeat;
@@ -101,6 +100,8 @@ nav a:hover{
 }
 main{
     width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
 }
 .col{
     float: none;
@@ -146,7 +147,6 @@ footer a:visited{
     text-decoration: none;
     color: #556;
     font-size: 0.7em;
-    transition: font 0.5s;
 }
 footer a:focus,
 footer a:hover{
@@ -154,7 +154,66 @@ footer a:hover{
 }
 
 @media screen and (min-width:600px){
-   
+    h1{
+        font-size: 4em;
+    }
+    h2{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    li, p, a{
+        font-size: 1em;
+    }
+    .wrapper{
+        width: 90%; /*100%*/
+    }
+    nav{
+        /*width:  90%;*/
+    }
+    nav li{
+        width: 20%;
+        float: left;
+    }
+    nav a,
+    nav a:link{
+        font-size: 1.3rem;
+    }
+    main{
+        width: 90%;
+        margin-top: 2.5em;
+    }
+    .col {
+        width: 50%;
+    }
+    .img{
+        width: 60%;
+        font-size: 0.7em;
+        float: left;
+        margin-right: 10px;
+    }
+    .first{
+        float:left;
+    }
+    .second{
+        float:right;
+    }
+    footer{
+        /*width: 90%;*/
+        clear: both;
+        padding-left: 7%;
+        height: 6em;
+    }
+    footer li{
+        width: 27%;
+        float: left;
+    }
+    footer p,
+    footer a,
+    footer a:link,
+    footer a:visited{
+        font-size: 0.8em;
+        padding-bottom: 1em;
+    }
 }
 @media screen and (min-width: 800px){
     
